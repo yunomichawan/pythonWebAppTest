@@ -1,9 +1,10 @@
 ﻿<html>
 <head>
     <title>{{ title }}</title>
+    <!-- __init__.py からの相対パス? -->
+    <link rel="stylesheet" type="text/css" href="/static/site.css" />
 </head>
 <body>
-    <strong>{{ message }}</strong>{{ content }}
-    <!--test-->
+    <span class="message">{{ message }}</span>{{ content }}
 </body>
 </html>

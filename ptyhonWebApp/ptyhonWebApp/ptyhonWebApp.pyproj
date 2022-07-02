@@ -39,11 +39,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="HelloFlask\static\" />
     <Folder Include="HelloFlask\templates\" />
     <Folder Include="Logic\" />
     <Folder Include="HelloFlask\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="HelloFlask\static\data.json" />
+    <Content Include="HelloFlask\static\site.css" />
     <Content Include="HelloFlask\templates\index.html" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />

@@ -13,7 +13,7 @@ app = Flask(__name__)
 @app.route('/')
 # URL: /hello/<name>?message=Have%20a%20nice%20day
 @app.route('/hello/<name>')
-# 有効なURLクエリを登録する?
+# 有効なURLルートを登録する.
 @app.route('/testCall')
 def hello(name):
     # クエリパラメータ取得
