@@ -15,8 +15,14 @@
     </div>
     <div class="body-content">
         {% block content %}
-        {% endblock %}
+        {% endblock content%}
         <hr/>
+        <div>
+            <span>SubContent</span>
+            {% block  subcontent%}
+            {% endblock  subcontent%}
+        </div>
+        <hr />
         <footer>
             <p>&copy; 2018</p>
         </footer>

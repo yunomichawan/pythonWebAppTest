@@ -1,5 +1,15 @@
-﻿<!--相対パスで記載する必要はない-->
+﻿<!--相対パスで記載する必要はない。基準となるパスの位置が__init__.py?-->
 {% extends "layout.html" %}
 {% block content %}
 <span class="message">aguserView フォルダにhtmlを配置して表示する</span>
-{% endblock %}
+<div>
+    <span>userView配下のページを表示する</span>
+</div>
+
+{% endblock content%}
+
+{% block subcontent%}
+<div>
+    <span>folderPage.htmlで表示するサブコンテンツです。</span>
+</div>
+{% endblock subcontent%}

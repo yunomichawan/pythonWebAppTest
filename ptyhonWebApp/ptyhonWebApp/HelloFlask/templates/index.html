@@ -1,4 +1,10 @@
 ﻿{% extends "layout.html" %}
 {% block content %}
 <span class="message">{{ message }}</span>{{ content }}
-{% endblock %}
+{% endblock content %}
+
+{% block subcontent%}
+<div>
+    <span>index.htmlで表示するサブコンテンツです。</span>
+</div>
+{% endblock subcontent%}
