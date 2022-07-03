@@ -47,6 +47,7 @@
   <ItemGroup>
     <Content Include="HelloFlask\static\data.json" />
     <Content Include="HelloFlask\static\site.css" />
+    <Content Include="HelloFlask\templates\about.html" />
     <Content Include="HelloFlask\templates\index.html" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />

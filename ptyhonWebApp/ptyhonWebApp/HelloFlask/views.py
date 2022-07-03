@@ -19,3 +19,13 @@ def home():
 @app.route('/api/data')
 def get_data():
     return app.send_static_file('data.json')
+
+@app.route('/about')
+def about():
+    # render_template、引数の1つ目はhtmlファイルを指定
+    # それ以降は自由に定義可能。指定htmlに含めた「{{要素}}」などを引数に含める
+
+    return render_template(
+        "about.html",
+        title = "About HelloFlask",
+        content = "Example app page for Flask")

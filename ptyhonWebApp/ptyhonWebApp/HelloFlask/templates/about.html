@@ -1,13 +1,12 @@
 ﻿<html>
 <head>
     <title>{{ title }}</title>
-    <!-- __init__.py からの相対パス? -->
     <link rel="stylesheet" type="text/css" href="/static/site.css" />
 </head>
 <body>
-    <span class="message">{{ message }}</span>{{ content }}
     <div>
-        <a href="about">About</a>
+        <a href="home">Home</a>
+        {{content}}
     </div>
 </body>
 </html>
