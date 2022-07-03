@@ -2,7 +2,6 @@ from datetime import datetime
 from flask import render_template
 from HelloFlask import app
 
-@app.route('/')
 @app.route('/home')
 def home():
     now = datetime.now()
