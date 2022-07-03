@@ -2,3 +2,4 @@ from flask import Flask
 app = Flask(__name__)
 
 import HelloFlask.views
+import HelloFlask.userView
