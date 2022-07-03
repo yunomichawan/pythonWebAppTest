@@ -6,5 +6,8 @@
 {% block subcontent%}
 <div>
     <span>index.htmlで表示するサブコンテンツです。</span>
+    {% with name = 'testName', msg = message %}
+    {% include "usercontrol.html" %}
+    {% endwith %}
 </div>
 {% endblock subcontent%}

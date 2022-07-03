@@ -54,6 +54,7 @@
     <Content Include="HelloFlask\templates\about.html" />
     <Content Include="HelloFlask\templates\index.html" />
     <Content Include="HelloFlask\templates\layout.html" />
+    <Content Include="HelloFlask\templates\usercontrol.html" />
     <Content Include="HelloFlask\templates\userView\folderPage.html" />
     <Content Include="HelloFlask\templates\userView\login.html" />
   </ItemGroup>

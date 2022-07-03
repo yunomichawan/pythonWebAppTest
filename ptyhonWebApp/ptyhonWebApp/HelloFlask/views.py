@@ -28,3 +28,7 @@ def about():
         "about.html",
         title = "About HelloFlask",
         content = "Example app page for Flask")
+
+@app.route('/usercontrol')
+def usercontrol():
+    return render_template("usercontrol.html")
